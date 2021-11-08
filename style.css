@@ -16,13 +16,7 @@ img{
 
 }
 body{
-  font-family: montserrat;
-  margin: 0;
-
-
-  background-color: #88E0EF;
   color:black;
-
 }
 .cityname{
   font-size: 40px;
@@ -38,9 +32,7 @@ body{
   justify-content: space-around;
   height: 100vh;
   align-items: center;
-background-image: url(/Users/rajnish/Downloads/clouds-sky.jpg);
-  backdrop-filter:blur 0;
-  background-image-width:100vw;
+
 
 }
 #description{
