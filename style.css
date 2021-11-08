@@ -58,7 +58,7 @@ body{
     font-size: 200px;
     font-family: century gothic;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1;
   }
   #date{
     font-size: 60px;
@@ -76,7 +76,7 @@ body{
   #feels_like{
     font-size: 50px;
     font-family: century gothic;
-    
+
   }
 
 
