@@ -59,10 +59,25 @@ background-image: url(/Users/rajnish/Downloads/clouds-sky.jpg);
     flex-direction: column;
   }
   img{
-  width:210px;
+  width:80vw;
   height:auto;
   }
-  
+  #temp{
+    font-size: 200px;
+    font-family: century gothic;
+    font-weight: bold;
+  }
+  #time{
+    font-size: 60px;
+    font-family: century gothic;
+    font-weight: 450;
+  }
+  #description{
+    font-size: 60px;
+    font-family: century gothic;
+    font-weight: bold;
+  }
+
 }
 .weatherIcon{
 
