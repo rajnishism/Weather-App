@@ -16,7 +16,7 @@ function success(position){
       document.getElementById("weatherImg").src= "images/"+data.weather[0].icon +".png";
       document.getElementById("description").innerHTML= data.weather[0].description;
       document.getElementById("feels_like").innerHTML = "Feels like "+data.main.feels_like;
-        document.getElementById("preloading").style.display= "none";
+      document.getElementById("preloading").style.display= "none";
 
    })
 
