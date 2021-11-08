@@ -58,6 +58,11 @@ background-image: url(/Users/rajnish/Downloads/clouds-sky.jpg);
   .cover{
     flex-direction: column;
   }
+  img{
+  width:210px;
+  height:auto;
+  }
+  
 }
 .weatherIcon{
 
