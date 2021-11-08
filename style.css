@@ -51,7 +51,7 @@ body{
     flex-direction: column;
   }
   img{
-  width:80vw;
+  width:65vw;
   height:auto;
   }
   #temp{
@@ -84,7 +84,7 @@ body{
 .cover{
     background-color: white;
     border-radius: 100px;
-    
+
     padding: 40px;
 }
 #date{
