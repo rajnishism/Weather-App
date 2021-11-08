@@ -6,7 +6,7 @@
   font-family: futura;
 }
 img{
-  width: 275px;
+  width: 23vw;
   margin-bottom: 30px;
 
   background-color: #fff;
@@ -18,6 +18,9 @@ img{
 body{
   color:black;
 }
+#date{
+  font-size: 40px;
+}
 .cityname{
   font-size: 40px;
   font-weight: 600;
@@ -25,6 +28,10 @@ body{
 #temp{
   font-size: 110px;
   font-weight: 600;
+}
+#feels_like{
+  font-size: 25px;
+  font-weight: normal;
 }
 #landingPage{
   display: flex;
@@ -37,14 +44,16 @@ body{
 }
 #description{
   margin: 15px;
-  font-size: 30px;
-  font-family: montserrat;
+  font-size: 35px;
+  font-family: century gothic;
   font-weight: 500;
 }
 .cover{
   margin: 20px;
   display: flex;
   justify-content: space-evenly;
+  width: 100vw;
+  
 }
 @media (max-width:1000px) {
   .cover{
@@ -103,7 +112,4 @@ body{
 #time{
   font-size: 23px;
   font-weight: 500;
-}
-#feels_like{
-
 }
