@@ -12,7 +12,7 @@ function success(position){
     .then(response=>response.json())
     .then(function(data){
 
-      document.getElementById("temp").innerHTML= data.main.temp ;
+      document.getElementById("temp").innerHTML= math.round(data.main.temp)+"℃" ;
       document.getElementById("weatherImg").src= "images/"+data.weather[0].icon +".png";
       document.getElementById("description").innerHTML= data.weather[0].description;
       document.getElementById("feels_like").innerHTML = "Feels like "+data.main.feels_like;
