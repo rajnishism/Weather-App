@@ -51,13 +51,14 @@ body{
     flex-direction: column;
   }
   img{
-  width:65vw;
+  width:60vw;
   height:auto;
   }
   #temp{
     font-size: 200px;
     font-family: century gothic;
     font-weight: bold;
+    line-height: 3;
   }
   #date{
     font-size: 60px;
@@ -69,6 +70,15 @@ body{
     font-family: century gothic;
     font-weight: bold;
   }
+  .textdata{
+
+  }
+  #feels_like{
+    font-size: 60px;
+    font-family: century gothic;
+    font-weight: bold;
+  }
+
 
 }
 .weatherIcon{
